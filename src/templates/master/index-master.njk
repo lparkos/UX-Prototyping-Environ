@@ -1,0 +1,21 @@
+{% include "partials/master-top.njk" %}
+
+  <main class="main-container container">
+    <div class="row">
+
+      {% include "partials/header.njk" %}
+
+      <div class="content col-sm-8">
+        {% block content %}{% endblock %}
+      </div>
+
+      <aside class="sidebar col-sm-4">
+        {% block sidebar %}{% endblock %}
+      </aside>
+
+      {% include "partials/footer.njk" %}
+
+    </div><!-- .row -->
+  </main><!-- .main-container -->
+
+{% include "partials/master-bottom.njk" %}

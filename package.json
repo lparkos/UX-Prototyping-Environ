@@ -1,0 +1,39 @@
+{
+  "name": "PrototypingEnvironment",
+  "version": "1.0.0",
+  "description": "The easiest workflow for frontend development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "?.git"
+  },
+  "author": "Lauren Parkos",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "browser-sync": "^2.23.6",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-cache": "^1.0.2",
+    "gulp-handlebars": "^5.0.2",
+    "gulp-nunjucks-html": "^2.0.0",
+    "gulp-nunjucks-render": "^2.2.2",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "handlebars": "^1.3.0",
+    "run-sequence": "^2.2.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "gulp-define-module": "^0.1.5",
+    "handlebars": "^4.0.12",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
+  }
+}
